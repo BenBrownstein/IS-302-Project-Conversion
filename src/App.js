@@ -4,7 +4,8 @@ import Bar from './Navbar';
 import Examplesofwork from './WorkDone';
 import Personalinfo from './Contact';
 import Footer from './Footer';
-
+import Rps from './rps';
+import RpsFunctional from './rpsFunctional';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Personalinfo />
       <Examplesofwork />
       <Footer />
-      
+      <Rps />
+      <RpsFunctional />
     </>
   );
 }

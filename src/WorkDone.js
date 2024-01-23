@@ -27,12 +27,23 @@ function Example1() {
     );
 }
 
+
+
+
+
 function Example2() {
     return (
         <>
-            <h2>Example 2</h2>
-            <iframe src="rps.js" style={{ border: "none" }} height="300px" width="300px"></iframe>
+            <Example2Title />
+            <iframe src={"rps.js"} style={{ border: "none" }} height="300px" width="300px"></iframe>
             <p id="Example2Text"> This is a mostly ChatGPT generated game to add another example and use Javascript.</p>
         </>
     );
 }
+
+function Example2Title() {
+    return (
+        <h2>Example 2</h2>
+    );
+}
+

@@ -1,13 +1,21 @@
 export default function Footer() {
     return (
         <>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <Linebreaks />
 
             <footer>
                 <p>&copy; 2023 ByteBandits</p>
             </footer>
 
-            <script src="../script.js"></script>
+            <script src="script.js"></script>
+        </>
+    );
+}
+
+function Linebreaks() {
+    return (
+        <>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </>
     );
 }
